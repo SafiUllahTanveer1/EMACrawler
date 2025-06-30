@@ -1,0 +1,27 @@
+{
+  "name": "crawlee-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "crawlee": "ts-node crawlee.ts",
+    "datamapper": "ts-node datamapper.ts",
+    "start": "ts-node crawlee.ts && ts-node datamapper.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "crawlee": "^3.13.5",
+    "exceljs": "^4.4.0",
+    "playwright": "^1.52.0",
+    "xlsx": "^0.18.5",
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
